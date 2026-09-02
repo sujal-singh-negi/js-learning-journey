@@ -35,3 +35,15 @@ console.log(myScorelineAsNumber)
 let isLoggedIn = 1;
 let BooleanIsLoggedIn = Boolean(isLoggedIn);
 console.log(BooleanIsLoggedIn);
+
+let marks = 200;
+let marksInString = String(marks);
+console.log(marksInString);
+
+let emptyData = null;
+let emptyDataInString = String(emptyData);
+console.log(emptyDataInString);
+
+let unassignedData;
+let unassignedDataInString = String(unassignedData);
+console.log(unassignedDataInString)
