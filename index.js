@@ -47,3 +47,19 @@ console.log(emptyDataInString);
 let unassignedData;
 let unassignedDataInString = String(unassignedData);
 console.log(unassignedDataInString)
+
+console.log("10" + 20 + 30);
+console.log(10 + 20 + "30");
+
+let valueOne = "100";
+let valueTwo = 50;
+console.log(valueOne - valueTwo);
+
+console.log("50" + 50);
+console.log("50" - 50);
+console.log("abc" - 50);
+
+let age = 20;
+let canVote = age >= 18;
+console.log(canVote);
+console.log(typeof canVote);
