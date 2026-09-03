@@ -1,65 +1,101 @@
-console.log("Hello World");
-const accountId = 144553;
-let accountEmail = "sujal@google.com";
-var accountCity = "Agra";
-const state = "UP";
+//  console.log(typeof myAgeAsNumber); 
 
-accountEmail = "negi@google.com";
-accountCity = "Delhi";
-console.table([accountId, accountEmail, accountCity, state]);
+// let myScore = "100abc";
+// let convertedScore = Number(myScore);
+// console.log(typeof convertedScore);
+// console.log(convertedScore);
 
-let score = 33;
-console.log(typeof score);
+// let myScoreline = "33abc";
+// let myScorelineAsNumber = Number(myScoreline);
 
-let scoreInString = "33";
-let valueInNumber = Number(scoreInString);
+// console.log(typeof myScorelineAsNumber)
+// console.log(myScorelineAsNumber)
 
+// let isLoggedIn = 1;
+// let BooleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(BooleanIsLoggedIn);
 
-console.log(typeof valueInNumber);
+// let marks = 200;
+// let marksInString = String(marks);
+// console.log(marksInString);
 
-let myAge = "20";
-let myAgeAsNumber = Number(myAge);
-console.log(typeof myAgeAsNumber);
+// let emptyData = null;
+// let emptyDataInString = String(emptyData);
+// console.log(emptyDataInString);
 
-let myScore = "100abc";
-let convertedScore = Number(myScore);
-console.log(typeof convertedScore);
-console.log(convertedScore);
+// let unassignedData;
+// let unassignedDataInString = String(unassignedData);
+// console.log(unassignedDataInString)
 
-let myScoreline = "33abc";
-let myScorelineAsNumber = Number(myScoreline);
+// console.log("10" + 20 + 30);
+// console.log(10 + 20 + "30");
 
-console.log(typeof myScorelineAsNumber)
-console.log(myScorelineAsNumber)
+// let valueOne = "100";
+// let valueTwo = 50;
+// console.log(valueOne - valueTwo);
 
-let isLoggedIn = 1;
-let BooleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(BooleanIsLoggedIn);
+// console.log("50" + 50);
+// console.log("50" - 50);
+// console.log("abc" - 50);
 
-let marks = 200;
-let marksInString = String(marks);
-console.log(marksInString);
+// let age = 20;
+// let canVote = age >= 18;
+// console.log(canVote);
+// console.log(typeof canVote);
 
-let emptyData = null;
-let emptyDataInString = String(emptyData);
-console.log(emptyDataInString);
+// let bankBalance = 399;
+// let movieTicket = 250;
+// if (bankBalance >= movieTicket) {
+//  console.log("Ticket is booked !!");
+    
+// } else {
+//   console.log("Not Enough Money");
+// }
 
-let unassignedData;
-let unassignedDataInString = String(unassignedData);
-console.log(unassignedDataInString)
+// let username = "";
+// if (username) {
+//   console.log("Welcome User!");
+// } else {
+//   console.log("Please login first!");
+// }
 
-console.log("10" + 20 + 30);
-console.log(10 + 20 + "30");
+// let coupon = "Welcome20";
+// if (coupon === "Super50") {
+//   console.log("50% discount applied!!");
+// } else if (coupon === "Welcome20") {
+//   console.log("20% discount applied!!");
+// } else {
+//   console.log("invalid coupon");
+// }
 
-let valueOne = "100";
-let valueTwo = 50;
-console.log(valueOne - valueTwo);
+// let marks = 75;
+// if (marks >= 80) {
+//   console.log("GRADE A");
+// } else if (marks >=50) {
+//   console.log("GRADE B");
+// } else {
+//   console.log("YOU ARE FAILED");
+// }
 
-console.log("50" + 50);
-console.log("50" - 50);
-console.log("abc" - 50);
+// let age = 25;
+// let hasId = true;
+// if (age >= 20 && hasId === true) {
+//   console.log("Entry allowed.");
+// } else {
+//   console.log("Entry denied.");
+// }
 
-let age = 20;
-let canVote = age >= 18;
-console.log(canVote);
-console.log(typeof canVote);
+// let isUpi = false;
+// let isCard = false;
+// if (isUpi === true || isCard ===true) {
+//   console.log("Payment successful");
+// } else {
+//   console.log("Payment unsuccessful");
+// }
+
+let isLoggedIn = false;
+if (!isLoggedIn) {
+  console.log("Please login to continue");
+} else {
+  console.log("Welcome Back!!");
+}
