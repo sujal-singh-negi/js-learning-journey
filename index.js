@@ -153,3 +153,27 @@
 // } else {
 //   console.log("sorry conditions are not matching");
 // }
+
+
+
+// top 6 blacklisted Falsy values ( false, null, 0, undefined, NaN, "", );
+
+
+let emptyData = null;
+let unassignedVar;
+let invalidMath = "Code" * 5;
+if (emptyData) {
+  console.log("Data exists");
+} else {
+  console.log("null is falsy");
+} 
+if (unassignedVar) {
+  console.log("variable has value");
+} else {
+  console.log("Undefined is a falsy");
+} 
+if (invalidMath) {
+  console.log("maths is valid!!!");
+} else {
+  console.log("is invalid")
+}
