@@ -93,9 +93,63 @@
 //   console.log("Payment unsuccessful");
 // }
 
-let isLoggedIn = false;
-if (!isLoggedIn) {
-  console.log("Please login to continue");
-} else {
-  console.log("Welcome Back!!");
-}
+// let isLoggedIn = false;
+// if (!isLoggedIn) {
+//   console.log("Please login to continue");
+// } else {
+//   console.log("Welcome Back!!");
+// }
+
+// let isLoggedOut = false;
+// if (!isLoggedOut) {
+//   console.log("Show user dashboard");
+// } else {
+//   console.log("Show login again");
+// }
+
+// let isAccountLocked = false;
+// if (!isAccountLocked) {
+//   console.log("payment successfull");
+// } else {
+//   console.log("account is locked");
+// }
+
+// let isLoggedIn = true;
+// let accountBlocked = false;
+// let isAdmin = false;
+// let hasPasskey = true;
+// if (isLoggedIn && !accountBlocked && (isAdmin || hasPasskey)){
+//   console.log("ACCESS GRANTED");
+// } else {
+//   console.log("ACCESS DENIED");
+// }
+
+// let isPrimeMember = true;
+// let isOutOfStock = false;
+// let hasCoupon = false;
+// let hasBankOffer = true;
+// if (isPrimeMember && !isOutOfStock && (hasCoupon || hasBankOffer)) {
+//   console.log("Offer applied and order placed");
+// } else {
+//   console.log("Order failed");
+// }
+
+// let isSeatAvailable = true;
+// let isPassportExpired = false;
+// let hasBusinessPasss = false;
+// let hasStudentDiscount = false;
+// if(isSeatAvailable && !isPassportExpired && (hasBusinessPasss || hasStudentDiscount)) {
+//   console.log("Your seat is booked. thankyou for your patience...");
+// } else {
+//   console.log("Conditions are not matching for your booking!!");
+// }
+
+// let isUserVerified = true;
+// let isRegionRestricted = true;
+// let hasPremiumSubscription = false;
+// let isFreeTier = true;
+// if (isUserVerified && !isRegionRestricted && (hasPremiumSubscription || isFreeTier)) {
+//   console.log("Ready to watch the movie");
+// } else {
+//   console.log("sorry conditions are not matching");
+// }
