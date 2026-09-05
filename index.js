@@ -199,3 +199,13 @@
 // console.log("Test2 :", Boolean(0));
 // console.log("Test3 :", Boolean(" ")); 
 
+// console.log("Implicit plus:" , "5" + 2);
+// console.log("Implicit minus: ", "5" - 2);
+// console.log("Implicit multiply : ", "5" * 2);
+
+console.log(10 + null);
+console.log(10 + undefined);
+console.log("10" - 5);
+console.log(10 + true);
+console.log(10 - false);
+
