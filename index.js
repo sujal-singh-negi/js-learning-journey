@@ -203,9 +203,18 @@
 // console.log("Implicit minus: ", "5" - 2);
 // console.log("Implicit multiply : ", "5" * 2);
 
-console.log(10 + null);
-console.log(10 + undefined);
-console.log("10" - 5);
-console.log(10 + true);
-console.log(10 - false);
+// console.log(10 + null);
+// console.log(10 + undefined);
+// console.log("10" - 5);
+// console.log(10 + true);
+// console.log(10 - false);
+
+console.log("loose check:", "5"== 5);
+console.log("strict check", "5" === 5);
+
+console.log("Test1:", "10" == 10);
+console.log("Test2:", "10" === 10);
+console.log("Test3:", 0 == false);
+
+
 
