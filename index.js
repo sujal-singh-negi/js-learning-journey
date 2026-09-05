@@ -1,5 +1,7 @@
 //  console.log(typeof myAgeAsNumber); 
 
+// const { use } = require("react");
+
 // let myScore = "100abc";
 // let convertedScore = Number(myScore);
 // console.log(typeof convertedScore);
@@ -159,21 +161,41 @@
 // top 6 blacklisted Falsy values ( false, null, 0, undefined, NaN, "", );
 
 
-let emptyData = null;
-let unassignedVar;
-let invalidMath = "Code" * 5;
-if (emptyData) {
-  console.log("Data exists");
-} else {
-  console.log("null is falsy");
-} 
-if (unassignedVar) {
-  console.log("variable has value");
-} else {
-  console.log("Undefined is a falsy");
-} 
-if (invalidMath) {
-  console.log("maths is valid!!!");
-} else {
-  console.log("is invalid")
-}
+// let emptyData = null;
+// let unassignedVar;
+// let invalidMath = "Code" * 5;
+// if (emptyData) {
+//   console.log("Data exists");
+// } else {
+//   console.log("null is falsy");
+// } 
+// if (unassignedVar) {
+//   console.log("variable has value");
+// } else {
+//   console.log("Undefined is a falsy");
+// } 
+// if (invalidMath) {
+//   console.log("maths is valid!!!");
+// } else {
+//   console.log("is invalid")
+// }
+
+// let userAge = 30;
+// let convertedAge = Number(userAge);
+// console.log(convertedAge, typeof convertedAge);
+
+// let invalidAge = "33abc";
+// let convertedInvalid = Number(invalidAge);
+// console.log(convertedInvalid, typeof convertedInvalid);
+
+// console.log("null conversion:", Number(null));
+// console.log("undefined conversion:", Number(undefined));
+// console.log("boolean conversion:" , Number(true) , Number(false));
+
+// console.log(Boolean(""));
+// console.log(Boolean("Sujal"));
+
+// console.log("Test1 :", Boolean("0"));
+// console.log("Test2 :", Boolean(0));
+// console.log("Test3 :", Boolean(" ")); 
+
