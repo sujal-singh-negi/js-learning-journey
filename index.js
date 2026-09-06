@@ -1,5 +1,4 @@
-//  console.log(typeof myAgeAsNumber); 
-
+//  console.log(typeof myAgeAsNumber);
 // const { use } = require("react");
 
 // let myScore = "100abc";
@@ -199,7 +198,7 @@
 // console.log("Test2 :", Boolean(0));
 // console.log("Test3 :", Boolean(" ")); 
 
-// console.log("Implicit plus:" , "5" + 2);
+// console.log("Implicit plus:" , "5" + 2);le
 // console.log("Implicit minus: ", "5" - 2);
 // console.log("Implicit multiply : ", "5" * 2);
 
@@ -209,12 +208,16 @@
 // console.log(10 + true);
 // console.log(10 - false);
 
-console.log("loose check:", "5"== 5);
-console.log("strict check", "5" === 5);
+// console.log("loose check:", "5"== 5);
+// console.log("strict check", "5" === 5);
 
-console.log("Test1:", "10" == 10);
-console.log("Test2:", "10" === 10);
-console.log("Test3:", 0 == false);
+// console.log("Test1:", "10" == 10);
+// console.log("Test2:", "10" === 10);
+// console.log("Test3:", 0 == false);
 
+// console.log(typeof ("100" - "50"));
+// console.log(typeof (10 - "5" + "5"));
 
-
+let userScore = null;
+let finalScore = userScore ?? 0;
+console.log(finalScore);
