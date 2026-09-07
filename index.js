@@ -218,6 +218,28 @@
 // console.log(typeof ("100" - "50"));
 // console.log(typeof (10 - "5" + "5"));
 
-let userScore = null;
-let finalScore = userScore ?? 0;
-console.log(finalScore);
+// let userScore = null;
+// let finalScore = userScore ?? 0;
+// console.log(finalScore);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non primitive or reference)
+
+// 1. Stack Memory Test (Primitive)
+let originalScore = 100;
+let copiedScore = originalScore;
+copiedScore = 200;
+
+// console.log(originalScore);
+
+let userOne = { name: "Sujal" };
+let userTwo = userOne;
+userTwo.name = "rahul";
+// console.log(userOne.name);
+
+let cityName = "Delhi"
+let newCity = cityName
+newCity = "Mumbai"
+console.log(cityName)
+
