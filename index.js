@@ -251,3 +251,19 @@ const repoCount = 50
 const gameName = "GTA 5"
 const price = 2000
 // console.log(`The price of ${gameName} is ${price} rupeess...`)
+
+
+const game1 = "ChaiCode"
+// console.log(game1.length)
+// console.log(game1.toUpperCase())
+// console.log(game1.charAt(2));
+// console.log(game1.indexOf("C"))
+
+const channel ="you tube"
+// console.log(channel.length)
+// console.log(channel.toUpperCase())
+// console.log(channel.charAt(3))
+// console.log(channel.indexOf("u"));
+
+
+
