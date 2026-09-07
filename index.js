@@ -241,5 +241,13 @@ userTwo.name = "rahul";
 let cityName = "Delhi"
 let newCity = cityName
 newCity = "Mumbai"
-console.log(cityName)
+// console.log(cityName)
 
+const name = "Sujal"
+const repoCount = 50
+
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
+
+const gameName = "GTA 5"
+const price = 2000
+// console.log(`The price of ${gameName} is ${price} rupeess...`)
