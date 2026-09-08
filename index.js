@@ -266,4 +266,19 @@ const channel ="you tube"
 // console.log(channel.indexOf("u"));
 
 
+const gameName1 = "ChaiCode"
+const newString = gameName1.substring(0,4)
+// console.log(newString);
+
+const anotherString = gameName1.slice(-4)
+// console.log(anotherString);
+
+const stringOne = "   Sujal Singh   "
+console.log(stringOne)
+console.log(stringOne.trim())
+
+ const url = "https://sujal.com/javascript%20course"
+ console.log(url.replace('%20', '-'))
+
+
 
