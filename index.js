@@ -274,11 +274,17 @@ const anotherString = gameName1.slice(-4)
 // console.log(anotherString);
 
 const stringOne = "   Sujal Singh   "
-console.log(stringOne)
-console.log(stringOne.trim())
+// console.log(stringOne)
+// console.log(stringOne.trim())
 
  const url = "https://sujal.com/javascript%20course"
- console.log(url.replace('%20', '-'))
+//  console.log(url.replace('%20', '-'))
+
+const url1 = "https://sujal.com/javascript-course"
+console.log(url.includes("javascript"));
+
+const gameName2 = "Chai-aur-code"
+console.log(gameName2.split("-"));
 
 
 
