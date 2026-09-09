@@ -281,10 +281,38 @@ const stringOne = "   Sujal Singh   "
 //  console.log(url.replace('%20', '-'))
 
 const url1 = "https://sujal.com/javascript-course"
-console.log(url.includes("javascript"));
+// console.log(url.includes("javascript"));
 
 const gameName2 = "Chai-aur-code"
-console.log(gameName2.split("-"));
+// console.log(gameName2.split("-"));
+
+// const balance = new Number(100)
+// console.log(balance.toString().length);
+// console.log(typeof balance)
+
+const balance1 = new Number(200.8964)
+// console.log(balance1.toFixed(2));
+
+const otherNumber = 23.8966
+// console.log(otherNumber.toPrecision(3));
+
+const otherNumber1 = 123.8966
+// console.log(otherNumber1.toPrecision(3));
+// console.log(otherNumber1.toPrecision(2).length);
+
+const hundreds = 1000000
+// console.log(hundreds.toLocaleString());
+
+const score1 = 400
+console.log(score1.toString());
+
+const balace2 = 123.8979
+console.log(balace2.toFixed(1));
+console.log(balace2.toPrecision(3));
+
+const hundred = 10000000
+console.log(hundred.toLocaleString());
+
 
 
 
