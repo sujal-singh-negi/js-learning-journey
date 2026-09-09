@@ -304,14 +304,24 @@ const hundreds = 1000000
 // console.log(hundreds.toLocaleString());
 
 const score1 = 400
-console.log(score1.toString());
+// console.log(score1.toString());
 
 const balace2 = 123.8979
-console.log(balace2.toFixed(1));
-console.log(balace2.toPrecision(3));
+// console.log(balace2.toFixed(1));
+// console.log(balace2.toPrecision(3));
 
 const hundred = 10000000
-console.log(hundred.toLocaleString());
+// console.log(hundred.toLocaleString());
+
+// console.log(Math.abs(-4))
+// console.log(Math.round(4.6));
+// console.log(Math.round(4.3));
+// console.log(Math.ceil(4.2))
+// console.log(Math.floor(4.9));
+
+const min = 10
+const max = 20
+console.log(Math.random() * (max - min + 1)+ min);
 
 
 
