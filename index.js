@@ -321,8 +321,22 @@ const hundred = 10000000
 
 const min = 10
 const max = 20
-console.log(Math.random() * (max - min + 1)+ min);
+// console.log(Math.random() * (max - min + 1)+ min);
 
+ let myDate = new Date()
+//  console.log(myDate)
+//  console.log(myDate.toDateString());
+// console.log(myDate.toLocaleString());
+// console.log(myDate.toJSON());
+ 
+let myCreatedDate = new Date(2026, 1, 2)
+// console.log(myCreatedDate.toDateString());
 
+let myAnotherDate = new Date("2026-02-15")
+//  console.log(myAnotherDate.toDateString());
 
+let myCreatedDate2 = new Date("2026-02-3")
+// console.log(myCreatedDate2.getTime())
+// console.log(Date.now());
+// console.log(Math.floor(Date.now() / 1000));
 
