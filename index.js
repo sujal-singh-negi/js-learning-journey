@@ -340,3 +340,20 @@ let myCreatedDate2 = new Date("2026-02-3")
 // console.log(Date.now());
 // console.log(Math.floor(Date.now() / 1000));
 
+const myArr = [0, 1, 2, 3, 4, 5]
+// myArr.push(6)
+// myArr.push(7)
+// myArr.pop()
+
+// myArr.unshift(9)
+// myArr.shift(9)
+
+// console.log(myArr.includes(9))
+// console.log(myArr.indexOf(3));
+
+// const newArr = myArr.join()
+// console.log(typeof newArr);
+// console.log(myArr)
+
+// slice, splice
+
