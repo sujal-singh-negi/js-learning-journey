@@ -357,3 +357,13 @@ const myArr = [0, 1, 2, 3, 4, 5]
 
 // slice, splice
 
+const myArr3 = [10, 20, 30, 40, 50]
+const result = myArr3.slice(1,3)
+
+console.log("Copied Part:", result);
+console.log("original Array:", myArr3);
+
+const cart = ["mobile", "Laptop", "headphones", "watch"]
+cart.splice(1,1)
+console.log('Updated CArt:', cart)
+
