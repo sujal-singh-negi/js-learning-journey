@@ -367,3 +367,10 @@ const cart = ["mobile", "Laptop", "headphones", "watch"]
 cart.splice(1,1)
 console.log('Updated CArt:', cart)
 
+const marvel_heroes = ["Thor", "Ironman", "Spiderman"]
+const dc_heroes = ["Superman", "Flash", "Batman"]
+
+marvel_heroes.push(dc_heroes)
+console.log(marvel_heroes);
+console.log(marvel_heroes[3][1]);
+
