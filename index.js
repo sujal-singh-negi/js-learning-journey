@@ -357,20 +357,23 @@ const myArr = [0, 1, 2, 3, 4, 5]
 
 // slice, splice
 
-const myArr3 = [10, 20, 30, 40, 50]
-const result = myArr3.slice(1,3)
+const myArr3 = [0, 1, 2, 3, 4, 5]
+//console.log("A", myArr3);
+// const myn1 = myArr3.slice(0,3)
+//console.log(myn1);
 
-console.log("Copied Part:", result);
-console.log("original Array:", myArr3);
+const myn2 = myArr3.splice(0,3)
+console.log(myn2);
+console.log(myArr3);
 
-const cart = ["mobile", "Laptop", "headphones", "watch"]
-cart.splice(1,1)
-console.log('Updated CArt:', cart)
+
+
+
 
 const marvel_heroes = ["Thor", "Ironman", "Spiderman"]
 const dc_heroes = ["Superman", "Flash", "Batman"]
 
 marvel_heroes.push(dc_heroes)
-console.log(marvel_heroes);
-console.log(marvel_heroes[3][1]);
+// console.log(marvel_heroes);
+// console.log(marvel_heroes[3][1]);
 
