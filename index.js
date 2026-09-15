@@ -393,6 +393,36 @@ const all_athletes = [...cricket_players, ...football_players, ...tennis_players
 
 const user_orders = ["laptop", ["mouse", "keyboard"],["tshirt", ["jeans", "jacket"]]]
 const clean_orders = user_orders.flat(1)
-console.log(clean_orders);
-console.log(clean_orders.length);
+// console.log(clean_orders);
+// console.log(clean_orders.length);
+
+let my_name = "Javscript"
+// console.log(Array.isArray(my_name))
+// console.log(Array.from(my_name));
+// console.log(Array.from({name: "Javascript"}));
+
+let my_city = "Delhi"
+// console.log(Array.isArray(my_city))
+let city_letters = Array.from(my_city)
+// console.log(city_letters);
+
+let course = "React"
+// console.log(Array.isArray(course));
+let course_letters = Array.from(course)
+// console.log(course_letters)
+
+let score = 100
+let score2 = 200
+let score3 = 300
+console.log(Array.of(score, score1, score3))
+
+let player = "Virat Kohli"
+let score0 = 183
+let matches = ["odi","t20"]
+let player_profile = Array.of(player, score0, matches)
+console.log(player_profile);
+
+
+
+
 
