@@ -363,17 +363,30 @@ const myArr3 = [0, 1, 2, 3, 4, 5]
 //console.log(myn1);
 
 const myn2 = myArr3.splice(0,3)
-console.log(myn2);
-console.log(myArr3);
-
-
-
-
+// console.log(myn2);
+// console.log(myArr3);
 
 const marvel_heroes = ["Thor", "Ironman", "Spiderman"]
 const dc_heroes = ["Superman", "Flash", "Batman"]
 
-marvel_heroes.push(dc_heroes)
+// marvel_heroes.push(dc_heroes)
 // console.log(marvel_heroes);
-// console.log(marvel_heroes[3][1]);
+// console.log(marvel_heroes[3][2]);
+ 
+const all_heroes = marvel_heroes.concat(dc_heroes)
+// console.log("Marvel heroes:", marvel_heroes)
+// console.log("dc heroes:", dc_heroes);
+// console.log("All heroes:", all_heroes);
+// console.log("Length of all heroes:", all_heroes.length);
 
+const indian_heroes = ["Shaktimaan", "krrrish"]
+// console.log(indian_heroes.length);
+// console.log(indian_heroes.pop(1));
+// console.log("Indian heroes:",indian_heroes)
+
+const cricket_players = ["AB devillers", "Chris gayle"]
+const football_players = ["Cristiano Ronaldo", "Lionel Messi"]
+const tennis_players = ["Federer", "Nadal"]
+const all_athletes = [...cricket_players, ...football_players, ...tennis_players]
+console.log(all_athletes)
+console.log(all_athletes.length);
