@@ -388,5 +388,11 @@ const cricket_players = ["AB devillers", "Chris gayle"]
 const football_players = ["Cristiano Ronaldo", "Lionel Messi"]
 const tennis_players = ["Federer", "Nadal"]
 const all_athletes = [...cricket_players, ...football_players, ...tennis_players]
-console.log(all_athletes)
-console.log(all_athletes.length);
+// console.log(all_athletes)
+// console.log(all_athletes.length);
+
+const user_orders = ["laptop", ["mouse", "keyboard"],["tshirt", ["jeans", "jacket"]]]
+const clean_orders = user_orders.flat(1)
+console.log(clean_orders);
+console.log(clean_orders.length);
+
