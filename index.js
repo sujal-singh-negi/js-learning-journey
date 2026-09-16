@@ -414,13 +414,67 @@ let course_letters = Array.from(course)
 let score = 100
 let score2 = 200
 let score3 = 300
-console.log(Array.of(score, score1, score3))
+// console.log(Array.of(score, score1, score3))
 
 let player = "Virat Kohli"
 let score0 = 183
 let matches = ["odi","t20"]
 let player_profile = Array.of(player, score0, matches)
-console.log(player_profile);
+// console.log(player_profile);
+
+const jsUser = {
+    name: "Sujal", 
+    "full name": "sujal negi",
+    age: 45, 
+    location: "Dehradun"
+}
+// Object.freeze(jsUser)
+jsUser.age = 34
+// console.log(jsUser.name)
+// console.log(jsUser["name"]);
+//  console.log(jsUser.age);
+// console.log(jsUser["location"]);
+
+const mySym = Symbol("key1")
+const symUser = {
+    name: "Sujal",
+    [mySym]: "mykey1"
+}
+// console.log(symUser[mySym]);
+// console.log(symUser);
+
+const s1 = Symbol("id")
+const user = {
+    [s1]: 12345
+}
+// console.log(user.s1);
+// console.log(user[s1]);
+
+const mySecret = Symbol("Secret key")
+const student = {
+    name : "Sujal",
+    "full Address": "Dehradun , UK",
+    marks : 84,
+    [mySecret]: "sujal chor haiii"
+}
+ Object.freeze(student)
+student.marks = 100
+
+console.log(student.marks);
+console.log(student["full Address"]);
+console.log(student[mySecret]);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
