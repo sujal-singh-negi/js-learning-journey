@@ -460,9 +460,56 @@ const student = {
  Object.freeze(student)
 student.marks = 100
 
-console.log(student.marks);
-console.log(student["full Address"]);
-console.log(student[mySecret]);
+// console.log(student.marks);
+// console.log(student["full Address"]);
+// console.log(student[mySecret]);
+
+const tinderUser = new Object()
+const tinderUser2 = {}
+
+tinderUser.id = "123abs"
+tinderUser.name = "Sujjju"
+tinderUser.isLoggedIn = false
+
+// console.log(tinderUser);
+
+const regularUser = {
+    email: "some@gmail.com",
+    Fullname: {
+        userfullname: {
+            firstname: "sujal",
+            lastname: "chor"
+        }
+    }
+}
+// console.log(regularUser);
+
+// Object.assign
+
+
+const obj1 = {1: "A", 2: "B"}
+const obj2 = {3: "C", 4: "D"}
+const obj3 = Object.assign({}, obj1, obj2)
+// console.log(obj3);
+
+const obj7 = {1: "Chor", 2: "hai"}
+const obj8 = {3: "Sale", 4: "tu"}
+const combinedObj = {...obj7, ...obj8}
+// console.log(combinedObj);
+
+const tinderUser3 = {
+    name: 'sujal',
+    id: '1223abs',
+    isLoggedIn: false
+}
+
+// console.log(Object.keys(tinderUser3));
+// console.log(Object.values(tinderUser3));
+// console.log(tinderUser3.hasOwnProperty("isLoggedIn"));
+
+
+
+
 
 
 
