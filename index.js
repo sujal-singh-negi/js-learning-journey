@@ -252,7 +252,6 @@ const gameName = "GTA 5"
 const price = 2000
 // console.log(`The price of ${gameName} is ${price} rupeess...`)
 
-
 const game1 = "ChaiCode"
 // console.log(game1.length)
 // console.log(game1.toUpperCase())
@@ -313,6 +312,9 @@ const balace2 = 123.8979
 const hundred = 10000000
 // console.log(hundred.toLocaleString());
 
+// +++++++++++++++++++++++++ MATHS ++++++++++++++++++++++++++++++++++
+
+
 // console.log(Math.abs(-4))
 // console.log(Math.round(4.6));
 // console.log(Math.round(4.3));
@@ -321,7 +323,7 @@ const hundred = 10000000
 
 const min = 10
 const max = 20
-// console.log(Math.random() * (max - min + 1)+ min);
+// console.log(Math.floor(Math.random() * (max - min + 1))+min) ++++++++++++++++++
 
  let myDate = new Date()
 //  console.log(myDate)
@@ -341,6 +343,8 @@ let myCreatedDate2 = new Date("2026-02-3")
 // console.log(Math.floor(Date.now() / 1000));
 
 const myArr = [0, 1, 2, 3, 4, 5]
+const myArr2 = new Array(1,2,3,4,5)
+
 // myArr.push(6)
 // myArr.push(7)
 // myArr.pop()
@@ -506,6 +510,18 @@ const tinderUser3 = {
 // console.log(Object.keys(tinderUser3));
 // console.log(Object.values(tinderUser3));
 // console.log(tinderUser3.hasOwnProperty("isLoggedIn"));
+
+const course1 = {
+    coursename: "js in hindi",
+    price: 5000,
+    courseInstructor: "Gitesh"
+}
+console.log(course1.courseInstructor);
+const {courseInstructor: Instructor } = course1
+//  console.log(courseInstructor);
+ console.log(Instructor);
+ 
+
 
 
 
