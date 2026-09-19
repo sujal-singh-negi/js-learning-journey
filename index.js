@@ -519,7 +519,11 @@ const course1 = {
 console.log(course1.courseInstructor);
 const {courseInstructor: Instructor } = course1
 //  console.log(courseInstructor);
- console.log(Instructor);
+//  console.log(Instructor);
+
+function loginUser(username) {
+    return `${username} just logged in! `;
+}console.log(loginUser("Sujal"))
  
 
 
