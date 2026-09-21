@@ -426,6 +426,9 @@ let matches = ["odi","t20"]
 let player_profile = Array.of(player, score0, matches)
 // console.log(player_profile);
 
+
+// singleton
+// Object literals
 const jsUser = {
     name: "Sujal", 
     "full name": "sujal negi",
@@ -516,14 +519,26 @@ const course1 = {
     price: 5000,
     courseInstructor: "Gitesh"
 }
-console.log(course1.courseInstructor);
+// console.log(course1.courseInstructor);
 const {courseInstructor: Instructor } = course1
 //  console.log(courseInstructor);
 //  console.log(Instructor);
 
 function loginUser(username) {
-    return `${username} just logged in! `;
-}console.log(loginUser("Sujal"))
+    return `${username} just logged in! `; }
+    // console.log(loginUser("Sujal"))
+
+// previous missing topic ++++++++++++++++++++++++++++++++++++++++++// name : adding function in objects
+
+
+const student1 = {
+    name: "Aman",
+    course: "Web Dev"
+}
+student1.greeting = function() {
+    console.log("Welcome to the class!!!")
+}
+
  
 
 
