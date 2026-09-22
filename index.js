@@ -530,16 +530,37 @@ function loginUser(username) {
 
 // previous missing topic ++++++++++++++++++++++++++++++++++++++++++// name : adding function in objects
 
-
+ 
 const student1 = {
     name: "Aman",
     course: "Web Dev"
 }
 student1.greeting = function() {
-    console.log("Welcome to the class!!!")
+    // console.log("Welcome to the class!!!")
 }
 
- 
+//  function and parameters+++++++++++++++++++++++++++++
+
+function addTwoNumbers (Number1, Number2) {
+    let result = Number1 + Number2
+    return result
+}
+ const result = addTwoNumbers(5,10)
+//  console.log("Result yehh haiii:" , result)
+
+function loginUserName(username = "Sam") {
+    return `${username} just logged In `
+} 
+// console.log(loginUserName("Sujal"));
+
+function calculateCartPrice(...num1) {
+    return num1
+}
+console.log(calculateCartPrice(100, 200,300 , 400))
+
+
+
+
 
 
 
