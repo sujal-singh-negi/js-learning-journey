@@ -556,7 +556,26 @@ function loginUserName(username = "Sam") {
 function calculateCartPrice(...num1) {
     return num1
 }
-console.log(calculateCartPrice(100, 200,300 , 400))
+//  console.log(calculateCartPrice(100, 200,300 , 400))
+
+const user1 = {
+username: "sujal",
+price: 999
+}
+
+function printUserDetails(userData) {
+    // console.log(`Username is ${userData.username} and price is ${userData.price}`);
+}
+printUserDetails(user1)
+
+// printUserDetails ({username: "sujal", price: 399}) 
+
+const myNewArray = [200, 400, 100, 300]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+console.log(returnSecondValue(myNewArray));
 
 
 
