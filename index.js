@@ -595,9 +595,46 @@ if (true) {
     // var globalVar = 20
     let globalVar = 20 
 } 
-console.log(globalVar);
+// console.log(globalVar);
 
 
+function one() {
+    const username = "sujal"
+ function two() {
+    const website = "You tube"
+    // console.log(username)
+}
+// console.log(website);
+ two()
+
+}  
+one()
+
+if (true) {
+    const username = "sujal" 
+    if (username === "sujal" ) {
+        const website = " YouTube"
+        // console.log(username + website);
+        
+    } 
+    // console.log(website);
+    
+}
+// console.log(username);
+
+// +++++++++++++++++ interesting +++++++++++++++++
+
+addone(5)
+function addone(num) {
+    return num + 1
+}
+// console.log(addone(5))
+
+addtwo(5)
+const addtwo = function(num) {
+    return num + 2
+ }
+// addtwo(5)
 
 
 
