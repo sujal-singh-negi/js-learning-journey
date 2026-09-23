@@ -575,7 +575,37 @@ const myNewArray = [200, 400, 100, 300]
 function returnSecondValue(getArray) {
     return getArray[1]
 }
-console.log(returnSecondValue(myNewArray));
+// console.log(returnSecondValue(myNewArray));
+
+// Global scope and block/local scope ++++++++++++++++++++++++++
+
+if(true){let a = 10
+const b = 20
+var c = 30
+}
+
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// var globalVar = 500
+let globalVar = 500
+if (true) {
+    // var globalVar = 20
+    let globalVar = 20 
+} 
+console.log(globalVar);
+
+
+
+
+
+
+
+
+
+
 
 
 
