@@ -682,13 +682,22 @@ const chai =  () => {
 // const addTwo = (num1, num2) => ( num1 + num2)
 const addTwo = (num1, num2) =>  ({username: "sujal"})
 
-console.log(addTwo(3, 4))
+// console.log(addTwo(3, 4))
 
+// Immediately invoked functions expressions (IIFE)
 
+function chai1 () {
+    //  console.log("DB CONNECTED"); 
+} 
+// chai1()
 
+(function chai1 () {
+     console.log(`DB CONNECTED`); 
+}) ();
 
-
-
+( (name) => {
+     console.log(`DB CONNECTED TWO ${name}`); 
+}) (`Sujal chor`)
 
 
 
