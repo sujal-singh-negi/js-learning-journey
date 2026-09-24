@@ -628,13 +628,69 @@ addone(5)
 function addone(num) {
     return num + 1
 }
-// console.log(addone(5))
+//  console.log(addone(5))
 
-addtwo(5)
+// addtwo(5)
 const addtwo = function(num) {
     return num + 2
  }
 // addtwo(5)
+
+// This and arrow function +++++++++++++++++++
+
+const user3 = {
+    username: "Sujal", 
+    price: 999,
+
+    WelcomeMessage: function(){
+        console.log(`${this.username} , welcome to this website`);
+         console.log(this);
+        
+    }
+
+}
+
+//  user3.WelcomeMessage()
+//  user3.username = "sammy"
+//  user3.WelcomeMessage()
+// console.log(this)
+
+// function chai(){
+//     let username = "Sujal"
+//     console.log(this.username);
+// }
+// chai() 
+
+// const chai = function () {
+//     let username = "Sujal"
+//     console.log(this.username);    
+// }
+// chai()
+
+const chai =  () => {
+ let username = "Sujal"
+ console.log(this);
+}
+// chai()
+
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
+// console.log(addTwo(3, 4))
+
+// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) => ( num1 + num2)
+const addTwo = (num1, num2) =>  ({username: "sujal"})
+
+console.log(addTwo(3, 4))
+
+
+
+
+
+
+
+
 
 
 
