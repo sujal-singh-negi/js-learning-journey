@@ -692,23 +692,88 @@ function chai1 () {
 // chai1()
 
 (function chai1 () {
-     console.log(`DB CONNECTED`); 
+    //  console.log(`DB CONNECTED`); 
 }) ();
 
 ( (name) => {
-     console.log(`DB CONNECTED TWO ${name}`); 
+    //  console.log(`DB CONNECTED TWO ${name}`); 
 }) (`Sujal chor`)
 
 
+// Control floww in javascript +++++++++++++++++++++++++++++++
 
 
+const temperature = 41
+// if (temperature === 40) {
+//     console.log("less than 50")
+// } else {
+// console.log("Temperature is greater than 50");
+// }
+
+// const scoreOne = 200
+// if (scoreOne > 100) {
+//     const power = "Fly"
+//     console.log(`User Power: ${power}`);    
+// }
 
 
+// const balance = 1000
+// if (balance > 500) console.log("Test") , console.log("Test2"); ++++++++++++++++++
 
+// if (balance < 500) {
+//     console.log("Less than 500");
 
+// } else if (balance <750) {
+//     console.log("Less than 750"); 
 
+// } else if (balance < 900) {
+//     console.log("Less than 900"); 
 
+// } else {
+//     console.log("Less than 1200");
+    
+// }
 
+// const userLoggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedInFromGmail = true
+// if (userLoggedIn && debitCard && 2 ==3) {
+//     console.log("Allow to buy courses");
+    
+// } 
+// if (loggedInFromGmail || loggedInFromGoogle) {
+//     console.log("User Logged In");
+    
+// }
+
+    // switch statement +++++++++++++++++++++++
+
+// switch (key) {
+//     case value:
+        
+//         break;
+
+//     default:
+//         break;
+// }
+
+const month = "march"
+switch (month) {
+    case "jan":
+        console.log("Janaury");
+        break;
+    case "feb":
+        console.log("February");
+        break;
+    case "march":
+        console.log("March");
+        break;
+
+    default:
+        console.log("Default case match");
+        break;
+}
 
 
 
