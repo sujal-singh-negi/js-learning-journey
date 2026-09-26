@@ -845,14 +845,14 @@ for (let i = 0; i <= 10; i++) {
    }    
 }
 
-let myArray = ["Flash", "Batman", "Superman"]
-    console.log(myArray.length);
+// let myArray = ["Flash", "Batman", "Superman"]
+//     console.log(myArray.length);
 
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
-    console.log(element);
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     console.log(element);
     
-}
+// }
 
 
 // break and continue ++++++++++++++++++++++++++++++++==
@@ -865,18 +865,33 @@ for (let index = 0; index < myArray.length; index++) {
 //   console.log(`Value of i is ${index}`);
       
 // }
-for (let index =1; index <= 20; index++) {
-    if (index == 5) {
-        console.log(`Detected 5`);
-        continue
-    }
-  console.log(`Value of i is ${index}`);
-      
-}
+// for (let index =1; index <= 20; index++) {
+//     if (index == 5) {
+//         console.log(`Detected 5`);
+//         continue
+//     }
+//   console.log(`Value of i is ${index}`);
+    
+// }
 
+// let index = 0
+// while (index <= 10) {
+//     console.log(`Value of index is ${index}`);
+//     index = index + 2
+// }
 
+// let myArray = ["flash", "batman", "superman"]
+// let arr = 0
+// while (arr < myArray.length) {
+//     console.log(`Value is ${myArray[arr]}`);
+//  arr = arr + 1   
+// }
 
-
+let scoreTwo = 1
+do {
+    console.log(`Score is ${scoreTwo}`);
+    scoreTwo ++
+} while (scoreTwo <= 10);
 
 
 
