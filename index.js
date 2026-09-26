@@ -1,6 +1,8 @@
 //  console.log(typeof myAgeAsNumber);
 // const { use } = require("react");
 
+// const { forwardRef } = require("react");
+
 // let myScore = "100abc";
 // let convertedScore = Number(myScore);
 // console.log(typeof convertedScore);
@@ -256,13 +258,13 @@ const game1 = "ChaiCode"
 // console.log(game1.length)
 // console.log(game1.toUpperCase())
 // console.log(game1.charAt(2));
-// console.log(game1.indexOf("C"))
+// console.log(game1.iOf("C"))
 
 const channel ="you tube"
 // console.log(channel.length)
 // console.log(channel.toUpperCase())
 // console.log(channel.charAt(3))
-// console.log(channel.indexOf("u"));
+// console.log(channel.iOf("u"));
 
 
 const gameName1 = "ChaiCode"
@@ -353,7 +355,7 @@ const myArr2 = new Array(1,2,3,4,5)
 // myArr.shift(9)
 
 // console.log(myArr.includes(9))
-// console.log(myArr.indexOf(3));
+// console.log(myArr.iOf(3));
 
 // const newArr = myArr.join()
 // console.log(typeof newArr);
@@ -818,8 +820,59 @@ let val1;
 const iceTeaPrice = 100
 // iceTeaPrice  <= 80 ? console.log("less than 80") : console.log("more than 80");
 
+//  loopsssss or iterations +++++++++++++++++++++++++++++++++++++++++++
+
+// for
+
+for (let i = 0; i <= 10; i++) {
+    const element = i;
+    if (element == 5) {
+        // console.log("5 is best number");   
+    }
+    // console.log(element);
+    
+}
+// console.log(element);
 
 
+for (let i = 0; i <= 10; i++) {
+    // console.log(`Outer loop value: ${i}`);
+    
+   for (let j = 0; j <= 10; j++) {
+        //   console.log(`Inner loop value ${j} and inner loop ${i}`);
+        //   console.log(i + '*' + j + ' = ' + i*j);
+          
+   }    
+}
+
+let myArray = ["Flash", "Batman", "Superman"]
+    console.log(myArray.length);
+
+for (let index = 0; index < myArray.length; index++) {
+    const element = myArray[index];
+    console.log(element);
+    
+}
+
+
+// break and continue ++++++++++++++++++++++++++++++++==
+
+// for (let index =1; index <= 20; index++) {
+//     if (index == 5) {
+//         console.log(`Detected 5`);
+//         break
+//     }
+//   console.log(`Value of i is ${index}`);
+      
+// }
+for (let index =1; index <= 20; index++) {
+    if (index == 5) {
+        console.log(`Detected 5`);
+        continue
+    }
+  console.log(`Value of i is ${index}`);
+      
+}
 
 
 
