@@ -948,6 +948,56 @@ const myObj0 = {
 }
 
 for (const key in myObj0) {
-    console.log(`${key} shortcut is ${myObj0[key]}`);
+    // console.log(`${key} shortcut is for ${myObj0[key]}`);
     
 }
+
+
+const programming = ["js", "ruby", "java","py", "cpp"]
+for (const key in programming) {
+    // console.log(programming[key]);
+    
+}
+
+
+const code = ["cpp", "python", "java", "js"]
+
+// code.forEach( function (item) {
+//     console.log(item);
+// })
+
+code.forEach( (item) => {
+    // console.log(item);
+    
+})
+
+// function printMe (item) {
+//     console.log(item);
+    
+// }
+
+// code.forEach(printMe)
+
+
+// code.forEach( (item, index, arr) => {
+//     console.log(item, index, arr);
+    
+// })
+
+// const coding = [
+//     {   languageName: "Javascript",
+//         fileName: "js"
+//     },
+//     {
+//         languageName: "java",
+//         fileName: "java"
+//     },
+//     {
+//         languageName: "python",
+//         fileName: "py"
+//     }
+// ]
+// coding.forEach( (item) => {
+// console.log(item.languageName);
+
+// })
