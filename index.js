@@ -1001,3 +1001,32 @@ code.forEach( (item) => {
 // console.log(item.languageName);
 
 // })
+
+// const coding = ["cpp", "python", "java", "js"]
+
+// const codee = coding.forEach( (item) => {
+// // console.log(item);
+// return item
+// }
+// console.log(codee);
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// const newNums1 = myNums.filter( (Nums) => {
+    // return Nums > 4
+// })
+// console.log(newNums1);
+
+
+// const newNums = []
+
+// myNums.forEach( (Nums) => {
+// if (Nums > 4) {
+//     newNums.push(Nums)
+    
+// }
+// })
+
+// console.log(newNums);
+
+
