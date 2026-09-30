@@ -258,7 +258,7 @@ const game1 = "ChaiCode"
 // console.log(game1.length)
 // console.log(game1.toUpperCase())
 // console.log(game1.charAt(2));
-// console.log(game1.iOf("C"))
+// console.log(game1.indexOf("C"))
 
 const channel ="you tube"
 // console.log(channel.length)
@@ -303,7 +303,7 @@ const otherNumber1 = 123.8966
 
 const hundreds = 1000000
 // console.log(hundreds.toLocaleString());
-
+// 'en-IN' 
 const score1 = 400
 // console.log(score1.toString());
 
@@ -355,7 +355,7 @@ const myArr2 = new Array(1,2,3,4,5)
 // myArr.shift(9)
 
 // console.log(myArr.includes(9))
-// console.log(myArr.iOf(3));
+// console.log(myArr.indexOf(3));
 
 // const newArr = myArr.join()
 // console.log(typeof newArr);
@@ -398,14 +398,14 @@ const all_athletes = [...cricket_players, ...football_players, ...tennis_players
 // console.log(all_athletes.length);
 
 const user_orders = ["laptop", ["mouse", "keyboard"],["tshirt", ["jeans", "jacket"]]]
-const clean_orders = user_orders.flat(1)
+const clean_orders = user_orders.flat(Infinity)
 // console.log(clean_orders);
 // console.log(clean_orders.length);
 
 let my_name = "Javscript"
 // console.log(Array.isArray(my_name))
 // console.log(Array.from(my_name));
-// console.log(Array.from({name: "Javascript"}));
+// console.log(Array.from({name: "Javascript"}));     Interesting casee ++++++++++++++++++++
 
 let my_city = "Delhi"
 // console.log(Array.isArray(my_city))
@@ -1030,3 +1030,12 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // console.log(newNums);
 
 
+// const userBooks = books.filter( (bk) => bk.genre === "History")
+
+// console.log(userBooks);
+
+
+const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
+
+const newNums = myNumers.map( (num) => num + 10)
+console.log(newNums);
