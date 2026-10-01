@@ -1040,8 +1040,41 @@ const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // console.log(newNums);
 
 
-const newNums = myNumbers
-                .map( (nums) => nums * 10)
-                .map( (nums) => nums + 1 )
-                .filter( (nums) => nums >= 40)
-console.log(newNums);
+// const newNums = myNumbers
+//                 .map( (nums) => nums * 10)
+//                 .map( (nums) => nums + 1 )
+//                 .filter( (nums) => nums >= 40)
+// console.log(newNums);
+
+
+const myNumber = [1, 2, 3]
+// const myTotal = myNumber.reduce( function (acc, val1) {
+//     console.log(`acc: ${acc} and val1: ${val1}`);
+    
+//             return acc + val1
+// }, 0)
+
+// const myTotal = myNumber.reduce( (acc, currval ) => acc + currval , 0)
+
+// console.log(myTotal);
+
+const shoppingCart = [
+    {
+        itemName: "js course",
+        price: 2999
+    },
+    {
+        itemName: "python course",
+        price: 999
+    },
+    {
+        itemName: "mobile dev course",
+        price: 5999
+    },
+    {
+        itemName: "data science course",
+        price: 13999
+    },
+]
+const finalAmount = shoppingCart.reduce( (acc, item) => (acc + item.price),0)
+console.log(finalAmount);
