@@ -630,6 +630,7 @@ addone(5)
 function addone(num) {
     return num + 1
 }
+addone(5)
 //  console.log(addone(5))
 
 // addtwo(5)
@@ -1005,7 +1006,7 @@ code.forEach( (item) => {
 // const coding = ["cpp", "python", "java", "js"]
 
 // const codee = coding.forEach( (item) => {
-// // console.log(item);
+//  console.log(item);
 // return item
 // }
 // console.log(codee);
@@ -1013,10 +1014,9 @@ code.forEach( (item) => {
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums1 = myNums.filter( (Nums) => {
-    // return Nums > 4
+    //  return Nums > 4
 // })
 // console.log(newNums1);
-
 
 // const newNums = []
 
@@ -1030,12 +1030,18 @@ const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // console.log(newNums);
 
 
-// const userBooks = books.filter( (bk) => bk.genre === "History")
+// const userBooks = books.filter( (bk) => bk.genre === 'history' )
 
 // console.log(userBooks);
 
 
-const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9,10]
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const newNums = myNumbers.map( (nums) => { return nums +  10})
+// console.log(newNums);
 
-const newNums = myNumers.map( (num) => num + 10)
+
+const newNums = myNumbers
+                .map( (nums) => nums * 10)
+                .map( (nums) => nums + 1 )
+                .filter( (nums) => nums >= 40)
 console.log(newNums);
