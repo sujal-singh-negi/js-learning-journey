@@ -888,11 +888,11 @@ for (let i = 0; i <= 10; i++) {
 //  arr = arr + 1   
 // }
 
-// let scoreTwo = 1
+// let score = 1
 // do {
-//     console.log(`Score is ${scoreTwo}`);
-//     scoreTwo ++
-// } while (scoreTwo <= 10);
+//     console.log(`Score is ${score}`);
+//     score ++
+// } while (score <= 10);
 
 
 // for of loop
@@ -939,6 +939,8 @@ for (const [key, value] of map) {
 //     console.log(key, ':-', value);
     
 // }
+
+// for in loop+++++++++++++++++++++++++++++++++++
 
 
 const myObj0 = {
@@ -1045,6 +1047,9 @@ const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 //                 .map( (nums) => nums + 1 )
 //                 .filter( (nums) => nums >= 40)
 // console.log(newNums);
+
+
+// reduce method ++++++++++++++++
 
 
 const myNumber = [1, 2, 3]
